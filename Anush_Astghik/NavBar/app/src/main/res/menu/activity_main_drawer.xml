@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@mipmap/ic_download"
+            android:title="Download" />
+        <item
+            android:id="@+id/nav_download2"
+            android:icon="@mipmap/ic_download"
+            android:title="Download" />
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@mipmap/ic_upload"
+            android:title="Upload" />
+        <item
+            android:id="@+id/nav_upload2"
+            android:icon="@mipmap/ic_upload"
+            android:title="Upload" />
+    </group>
+
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_exit"
+                android:title="Exit" />
+        </menu>
+
+
+</menu>
